@@ -1,0 +1,134 @@
+// Import variables
+
+@import "variables.scss";
+
+// Import fonts
+
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Carlito:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+// Uniformisation document
+
+* {
+  margin: 0;
+  text-decoration: none;
+  scroll-behavior: smooth;
+  transition: all 0.3s ease;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--title);
+}
+
+h1,
+h2 {
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h2,
+#about-page h1,
+#projects-page h1,
+#contact-page h1 {
+  color: var(--primary-color);
+  font-size: 36px;
+  text-align: center;
+}
+
+h3,
+#about-page h2,
+#projects-page h2 {
+  color: var(--dark-text);
+  font-size: 19px;
+  text-align: start;
+}
+
+p,
+a,
+label,
+input,
+textarea {
+  font-family: var(--text);
+  color: var(--dark-text);
+}
+
+p {
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+label {
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+.logo {
+  font-family: var(--title);
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.button {
+  padding: 14px 32px;
+  background: var(--secondary-color);
+  color: var(--white);
+  border-radius: 8px;
+  display: block;
+  width: fit-content;
+
+  &:hover {
+    cursor: pointer;
+    scale: 1.05;
+  }
+}
+
+.link {
+  color: var(--secondary-color);
+  position: relative;
+
+  &:hover {
+    i {
+      position: absolute;
+      top: 3px;
+      animation: 0.5s slideOut;
+      animation-fill-mode: forwards;
+    }
+  }
+}
+
+.tag {
+  padding: 5px 12px;
+  background: var(--light-grey);
+  border-radius: 1000px;
+}
+
+section {
+  padding: 80px 0;
+}
+
+.container-1540 {
+  max-width: 1540px;
+  margin: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.container-670 {
+  max-width: 670px;
+  margin: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}

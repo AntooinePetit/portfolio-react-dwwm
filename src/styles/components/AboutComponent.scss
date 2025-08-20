@@ -1,0 +1,50 @@
+// Import variables
+
+@import "../bases/variables";
+
+#about {
+  h2 {
+    margin-bottom: 25px;
+  }
+
+  > div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+
+    article {
+      h3,
+      h2 {
+        font-size: 24px;
+        margin-bottom: 25px;
+      }
+
+      p {
+        margin-bottom: 25px;
+      }
+
+      > div {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+
+        > div {
+          justify-self: center;
+          text-align: center;
+          flex: 1 0 30%;
+
+          svg {
+            color: $primary-color;
+            width: 50px;
+            margin-bottom: 20px;
+          }
+
+          p {
+            font-weight: 500;
+          }
+        }
+      }
+    }
+  }
+}

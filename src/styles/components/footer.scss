@@ -1,0 +1,55 @@
+// Import variables
+
+@import "../bases/variables";
+
+footer {
+  background: $primary-color;
+  padding: 50px 0;
+
+  .container-1540 {
+    .logo {
+      color: $white;
+    }
+
+    > div {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      #socials {
+        display: flex;
+        align-items: center;
+
+        a {
+          padding: 15px;
+
+          svg {
+            color: $white;
+            background: $dark-text;
+            padding: 15px 16px;
+            border-radius: 1000000px;
+          }
+
+          &:nth-child(2) {
+            svg {
+              padding: 15px;
+            }
+          }
+
+          &:hover {
+            scale: 1.1;
+          }
+        }
+      }
+
+      &:nth-child(2) {
+        p {
+          color: $white;
+          &:nth-child(2) {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+}

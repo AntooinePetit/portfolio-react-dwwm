@@ -2,7 +2,7 @@ import { ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
 
 type ProjectCardProps = {
-  key: number;
+  id: string;
   title: string;
   description: string;
   tags: string[];
@@ -11,19 +11,20 @@ type ProjectCardProps = {
   link: string;
 };
 
-const ProjectCard = ({ key, title, description, tags, alt, image, link }: ProjectCardProps) => {
+const ProjectCard = ({ id, title, description, tags, alt, image, link }: ProjectCardProps) => {
   return (
-    <article key={key}>
-      <img src={image} alt={alt} />
+    <article>
+      <a href={link} target="_blank" rel="noopener noreferrer">
+        <img src={image} alt={alt} />
+      </a>
       <div>
         <h3>{title}</h3>
         <p>{description}</p>
-        <div>
-          {tags.map((tag: string) => (
-            <p className="tag" key={tag}>{tag}</p>
-          ))}
-          
-        </div>
+        <ul>
+          {tags.map((tag: string, index) => (
+            <li className="tag" key={`${id}-${index}`}>{tag}</li>
+          ))}      
+        </ul>
         <Link to={link} className="link">
           Voir le projet <ArrowRight />
         </Link>

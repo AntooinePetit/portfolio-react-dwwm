@@ -25,6 +25,7 @@ const Projects = ({ page }: ProjectsProps) => {
             {projects.map((project) => (
               <ProjectCard
                 key={project.id}
+                id={project.id.toString()}
                 title={project.title}
                 description={project.description}
                 tags={project.tags}
@@ -37,6 +38,35 @@ const Projects = ({ page }: ProjectsProps) => {
           <Link to="/projets" className="button">
             Voir tous les projets
           </Link>
+        </div>
+      </section>
+    );
+  }
+
+  if (page === "projets") {
+    const reversed = [...data].reverse();
+    return (
+      <section id="projects">
+        <div className="container-1540">
+          <h2>Mes projets</h2>
+          <p>
+            Découvrez une sélection de mes travaux récents qui démontrent mes
+            compétences en développement web et design d'interface.
+          </p>
+          <div className="liste-projets">
+            {reversed.map((project) => (
+              <ProjectCard
+                key={project.id}
+                id={project.id.toString()}
+                title={project.title}
+                description={project.description}
+                tags={project.tags}
+                alt={project.alt}
+                image={project.image}
+                link={project.link}
+              />
+            ))}
+          </div>
         </div>
       </section>
     );

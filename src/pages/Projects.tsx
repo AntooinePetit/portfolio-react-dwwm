@@ -7,8 +7,8 @@ const Projects = () => {
     <>
       <Header />
 
-      <main>
-        <ProjectsComponent />
+      <main id="projects-page">
+        <ProjectsComponent page="projets" />
       </main>
 
       <Footer />

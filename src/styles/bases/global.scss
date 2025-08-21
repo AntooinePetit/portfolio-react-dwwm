@@ -14,6 +14,7 @@
   text-decoration: none;
   scroll-behavior: smooth;
   transition: all 0.3s ease;
+  list-style: none;
 }
 
 h1,
@@ -113,6 +114,7 @@ img {
   padding: 5px 12px;
   background: $light-grey;
   border-radius: 1000px;
+  font-family: $text;
 }
 
 section {
@@ -131,4 +133,12 @@ section {
   margin: auto;
   padding-left: 15px;
   padding-right: 15px;
+}
+
+@media screen and (max-width:767px) {
+  .link:hover {
+    svg {
+      margin-left: 25px;
+    }
+  }
 }

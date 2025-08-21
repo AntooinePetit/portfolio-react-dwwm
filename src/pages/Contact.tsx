@@ -1,7 +1,17 @@
+import ContactComponent from "../components/ContactComponent"
+import Footer from "../components/Footer"
+import Header from "../components/Header"
+
 const Contact = () => {
   return (
     <>
-      <h1>test</h1>
+      <Header />
+
+      <main>
+        <ContactComponent />
+      </main>
+
+      <Footer />
     </>
   )
 }

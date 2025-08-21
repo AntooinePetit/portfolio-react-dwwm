@@ -1,7 +1,17 @@
+import Footer from "../components/Footer"
+import Header from "../components/Header"
+import ProjectsComponent from "../components/ProjectsComponent"
+
 const Projects = () => {
   return (
     <>
-      <h1>test</h1>
+      <Header />
+
+      <main>
+        <ProjectsComponent />
+      </main>
+
+      <Footer />
     </>
   )
 }

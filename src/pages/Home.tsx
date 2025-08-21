@@ -1,9 +1,9 @@
 import AboutComponent from "../components/About";
-import ContactComponent from "../components/Contact";
+import ContactComponent from "../components/ContactComponent";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
-import Projects from "../components/Projects";
+import Projects from "../components/ProjectsComponent";
 
 const Home = () => {
   return (

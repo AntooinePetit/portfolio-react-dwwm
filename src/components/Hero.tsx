@@ -13,7 +13,7 @@ const Hero = () => {
             </p>
             <a href="#projects" className="button">Voir mes projets</a>
           </article>
-          <img src="/public/images/pdp.png" alt="Photo d'Antoine Petit" />
+          <img src="/images/pdp.png" alt="Photo d'Antoine Petit" />
         </div>
       </section>
   )

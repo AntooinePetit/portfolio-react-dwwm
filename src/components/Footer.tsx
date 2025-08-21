@@ -8,7 +8,7 @@ const Footer = () => {
     <footer>
       <div className="container-1540">
         <div>
-          <Link to="./" className="logo">
+          <Link to="/" className="logo">
             Antoine Petit
           </Link>
           <div id="socials">

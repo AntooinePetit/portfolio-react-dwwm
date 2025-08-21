@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "../styles/components/Projects.scss"
+import "../styles/components/ProjectsComponent.scss"
 import { ArrowRight } from "lucide-react";
 
 
@@ -14,7 +14,7 @@ const Projects = () => {
         </p>
         <div className="liste-projets">
           <article>
-            <img src="/public/images/vividly.png" alt="Projet Vividly" />
+            <img src="/images/vividly.png" alt="Projet Vividly" />
             <div>
               <h3>Vividly</h3>
               <p>
@@ -33,7 +33,7 @@ const Projects = () => {
             </div>
           </article>
           <article>
-            <img src="/public/images/home-key.png" alt="Projet Home Key" />
+            <img src="/images/home-key.png" alt="Projet Home Key" />
             <div>
               <h3>Home Key</h3>
               <p>

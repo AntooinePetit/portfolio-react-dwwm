@@ -19,7 +19,7 @@
 h1,
 h2,
 h3 {
-  font-family: var(--title);
+  font-family: $title;
 }
 
 h1,
@@ -35,7 +35,7 @@ h2,
 #about-page h1,
 #projects-page h1,
 #contact-page h1 {
-  color: var(--primary-color);
+  color: $primary-color;
   font-size: 36px;
   text-align: center;
 }
@@ -43,7 +43,7 @@ h2,
 h3,
 #about-page h2,
 #projects-page h2 {
-  color: var(--dark-text);
+  color: $dark-text;
   font-size: 19px;
   text-align: start;
 }
@@ -53,8 +53,8 @@ a,
 label,
 input,
 textarea {
-  font-family: var(--text);
-  color: var(--dark-text);
+  font-family: $text;
+  color: $dark-text;
 }
 
 p {
@@ -76,15 +76,15 @@ img {
 }
 
 .logo {
-  font-family: var(--title);
+  font-family: $title;
   font-size: 24px;
   font-weight: 700;
 }
 
 .button {
   padding: 14px 32px;
-  background: var(--secondary-color);
-  color: var(--white);
+  background: $secondary-color;
+  color: $white;
   border-radius: 8px;
   display: block;
   width: fit-content;
@@ -96,22 +96,21 @@ img {
 }
 
 .link {
-  color: var(--secondary-color);
-  position: relative;
+  color: $secondary-color;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 
   &:hover {
-    i {
-      position: absolute;
-      top: 3px;
-      animation: 0.5s slideOut;
-      animation-fill-mode: forwards;
+    svg {
+      margin-left: 120px;
     }
   }
 }
 
 .tag {
   padding: 5px 12px;
-  background: var(--light-grey);
+  background: $light-grey;
   border-radius: 1000px;
 }
 

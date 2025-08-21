@@ -19,15 +19,15 @@ footer {
       #socials {
         display: flex;
         align-items: center;
+        gap: 15px;
 
         a {
-          padding: 15px;
+          border-radius: 1000000px;
+          background: $dark-text;
 
           svg {
             color: $white;
-            background: $dark-text;
             padding: 15px 16px;
-            border-radius: 1000000px;
           }
 
           &:nth-child(2) {

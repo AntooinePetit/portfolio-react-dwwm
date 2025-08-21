@@ -1,6 +1,7 @@
-import { FolderCode, Github, Linkedin } from "lucide-react";
+import { FolderCode, Linkedin } from "lucide-react";
 import { Link } from "react-router-dom";
 import "../styles/components/footer.scss";
+import { SiGithub } from "@icons-pack/react-simple-icons"
 
 const Footer = () => {
   return (
@@ -18,7 +19,7 @@ const Footer = () => {
               <Linkedin size={20}/>
             </Link>
             <Link to="https://github.com/AntooinePetit" target="_blank">
-              <Github size={20}/>
+              <SiGithub size={20}/>
             </Link>
             <Link
               to="https://www.frontendmentor.io/profile/AntooinePetit"

@@ -33,3 +33,17 @@ header {
     }
   }
 }
+
+@media screen and (max-width:767px) {
+  header {
+    .container-1540 {
+      nav {
+        display: none;
+      }
+
+      #burgermenu {
+        display: block;
+      }
+    }
+  }
+}

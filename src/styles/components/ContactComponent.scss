@@ -57,3 +57,15 @@
     border: none;
   }
 }
+
+@media screen and (max-width:767px) {
+  #contact {
+    form {
+      grid-template-columns: 1fr;
+
+      span {
+        grid-column: 1 !important;
+      }
+    }
+  }
+}

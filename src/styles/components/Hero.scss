@@ -55,3 +55,17 @@
     }
   }
 }
+
+@media screen and (max-width:767px) {
+  #presentation {
+    height: fit-content;
+    padding: 25px 0;
+    .container-1540 {
+      grid-template-columns: 1fr;
+
+      img {
+        margin: 20px 0;
+      }
+    }
+  }
+}

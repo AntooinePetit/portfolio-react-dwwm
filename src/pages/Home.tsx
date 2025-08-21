@@ -13,7 +13,7 @@ const Home = () => {
     <main>
       <Hero />
       <AboutComponent />
-      <Projects />
+      <Projects page="home" />
       <ContactComponent />
     </main>
 

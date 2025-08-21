@@ -1,3 +1,38 @@
+.liste-projets {
+  display: grid;
+  gap: 25px;
+
+  article {
+    background: var(--white);
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px -2px #0000001a, 0px 4px 6px -1px #0000001a;
+
+    img {
+      height: 250px;
+      object-fit: cover;
+      object-position: top;
+      border-top-left-radius: 8px;
+      border-top-right-radius: 8px;
+    }
+
+    > div {
+      padding: 25px;
+
+      h3,
+      > p,
+      div {
+        margin-bottom: 15px;
+      }
+
+      div {
+        display: flex;
+        gap: 15px;
+        flex-wrap: wrap;
+      }
+    }
+  }
+}
+
 #projects {
   background: var(--light-grey);
 

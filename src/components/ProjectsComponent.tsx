@@ -32,6 +32,7 @@ const Projects = ({ page }: ProjectsProps) => {
                 alt={project.alt}
                 image={project.image}
                 link={project.link}
+                page={page}
               />
             ))}
           </div>
@@ -48,7 +49,7 @@ const Projects = ({ page }: ProjectsProps) => {
     return (
       <section id="projects">
         <div className="container-1540">
-          <h2>Mes projets</h2>
+          <h1>Mes projets</h1>
           <p>
             Découvrez une sélection de mes travaux récents qui démontrent mes
             compétences en développement web et design d'interface.
@@ -64,6 +65,7 @@ const Projects = ({ page }: ProjectsProps) => {
                 alt={project.alt}
                 image={project.image}
                 link={project.link}
+                page={page}
               />
             ))}
           </div>

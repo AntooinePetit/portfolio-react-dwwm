@@ -7,7 +7,7 @@ const Contact = () => {
     <>
       <Header />
 
-      <main>
+      <main id="contact-page">
         <ContactComponent />
       </main>
 

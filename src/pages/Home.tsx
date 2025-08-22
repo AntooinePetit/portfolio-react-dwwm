@@ -1,4 +1,4 @@
-import AboutComponent from "../components/About";
+import AboutComponent from "../components/AboutComponent";
 import ContactComponent from "../components/ContactComponent";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
@@ -8,18 +8,18 @@ import Projects from "../components/ProjectsComponent";
 const Home = () => {
   return (
     <>
-    <Header />
+      <Header />
 
-    <main>
-      <Hero />
-      <AboutComponent />
-      <Projects page="home" />
-      <ContactComponent />
-    </main>
+      <main>
+        <Hero />
+        <AboutComponent page="home" />
+        <Projects page="home" />
+        <ContactComponent page="home"/>
+      </main>
 
-    <Footer />
+      <Footer />
     </>
-  )
+  );
 };
 
 export default Home;

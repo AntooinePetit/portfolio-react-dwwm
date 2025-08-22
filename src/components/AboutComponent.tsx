@@ -1,15 +1,28 @@
+import {
+  SiCss,
+  SiHtml5,
+  SiJavascript,
+  SiReact,
+} from "@icons-pack/react-simple-icons";
 import { ArrowRight, Circle } from "lucide-react";
 import { Link } from "react-router-dom";
-import "../styles/components/AboutComponent.scss"
-import { SiHtml5, SiCss, SiJavascript, SiReact } from "@icons-pack/react-simple-icons"
+import "../styles/components/AboutComponent.scss";
 
-const AboutComponent = () => {
+interface AboutComponentProps {
+  page: string;
+}
+
+const AboutComponent = ({ page }: AboutComponentProps) => {
   return (
     <section id="about" className="container-1540">
-      <h2>À propos de moi</h2>
+      {page === "home" ? <h2>À propos de moi</h2> : <h1>À propos de moi</h1>}
       <div>
         <article>
-          <h3>Mon parcours</h3>
+          {page === "home" ? (
+            <h3>Mon parcous</h3>
+          ) : (
+            <h2>Mon parcous</h2>
+          )}
           <p>
             Étudiant en développement web et web mobile, je construis
             progressivement mon expertise en combinant rigueur technique et
@@ -36,30 +49,34 @@ const AboutComponent = () => {
           </Link>
         </article>
         <article>
-          <h3>Mes compétences</h3>
+          {page === "home" ? (
+            <h3>Mes compétences</h3>
+          ) : (
+            <h2>Mes compétences</h2>
+          )}
           <div>
             <div>
-              <SiHtml5 className="icons"/>
+              <SiHtml5 className="icons" />
               <p>HTML5</p>
             </div>
             <div>
-              <SiCss className="icons"/>
+              <SiCss className="icons" />
               <p>CSS3</p>
             </div>
             <div>
-              <SiJavascript className="icons"/>
+              <SiJavascript className="icons" />
               <p>JavaScript</p>
             </div>
             <div>
-              <SiReact className="icons"/>
+              <SiReact className="icons" />
               <p>React</p>
             </div>
             <div>
-              <Circle size={50}/>
+              <Circle size={50} />
               <p>UI/UX Design</p>
             </div>
             <div>
-              <Circle size={50}/>
+              <Circle size={50} />
               <p>Responsive design</p>
             </div>
           </div>

@@ -1,9 +1,13 @@
-import "../styles/components/ContactComponent.scss"
+import "../styles/components/ContactComponent.scss";
 
-const ContactComponent = () => {
+interface ContactComponentProps {
+  page: string;
+}
+
+const ContactComponent = ({ page }: ContactComponentProps) => {
   return (
     <section id="contact" className="container-670">
-      <h2>Contactez-moi</h2>
+      {page === "home" ? <h2>Contactez-moi</h2> : <h1>Mes compétences</h1>}
       <p>
         Vous avez un projet en tête ou une question ? N'hésitez pas à me
         contacter, je vous répondrai dans les plus brefs délais.
@@ -34,4 +38,4 @@ const ContactComponent = () => {
     </section>
   );
 };
- export default ContactComponent
+export default ContactComponent;

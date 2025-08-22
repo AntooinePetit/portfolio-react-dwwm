@@ -9,16 +9,21 @@ type ProjectCardProps = {
   alt: string;
   image: string;
   link: string;
+  page: string;
 };
 
-const ProjectCard = ({ id, title, description, tags, alt, image, link }: ProjectCardProps) => {
+const ProjectCard = ({ id, title, description, tags, alt, image, link, page }: ProjectCardProps) => {
   return (
     <article>
       <a href={link} target="_blank" rel="noopener noreferrer">
         <img src={image} alt={alt} />
       </a>
       <div>
-        <h3>{title}</h3>
+        {page === "home" ? (
+            <h3>{title}</h3>
+          ) : (
+            <h2>{title}</h2>
+          )}
         <p>{description}</p>
         <ul>
           {tags.map((tag: string, index) => (

@@ -6,7 +6,7 @@
     "tags": ["HTML5", "CSS3", "Responsive design", "Mobile first"],
     "image": "/images/vividly.png",
     "alt": "Projet Vividly",
-    "link": "#"
+    "link": "https://github.com/AntooinePetit/Vividly"
   },
   {
     "id": 2,
@@ -15,7 +15,7 @@
     "tags": ["HTML5", "CSS3", "Responsive design"],
     "image": "/images/home-key.png",
     "alt": "Projet Home Key",
-    "link": "#"
+    "link": "https://github.com/AntooinePetit/Home-Key"
   },
   {
     "id": 3,
@@ -24,7 +24,7 @@
     "tags": ["HTML5", "CSS3", "Responsive design"],
     "image": "/images/ako.webp",
     "alt": "Projet Ako",
-    "link": "#"
+    "link": "https://github.com/AntooinePetit/9-projets"
   },
   {
     "id": 4,
@@ -33,7 +33,7 @@
     "tags": ["HTML5", "CSS3", "Responsive design"],
     "image": "/images/boum-boum.webp",
     "alt": "Projet Boum Boum",
-    "link": "#"
+    "link": "https://github.com/AntooinePetit/9-projets"
   },
   {
     "id": 5,
@@ -42,7 +42,7 @@
     "tags": ["HTML5", "CSS3", "Responsive design"],
     "image": "/images/delights.webp",
     "alt": "Projet Delights",
-    "link": "#"
+    "link": "https://github.com/AntooinePetit/9-projets"
   },
   {
     "id": 6,
@@ -51,7 +51,7 @@
     "tags": ["HTML5", "CSS3", "Responsive design"],
     "image": "/images/digital-marketing-agency.webp",
     "alt": "Projet Digital Marketing Agency",
-    "link": "#"
+    "link": "https://github.com/AntooinePetit/9-projets"
   },
   {
     "id": 7,
@@ -60,6 +60,6 @@
     "tags": ["HTML5", "CSS3", "Responsive design"],
     "image": "/images/nomade-jewelry.webp",
     "alt": "Projet Nomade Jewelry",
-    "link": "#"
+    "link": "https://github.com/AntooinePetit/9-projets"
   }
 ]

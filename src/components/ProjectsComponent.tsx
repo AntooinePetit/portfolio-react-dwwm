@@ -45,7 +45,6 @@ const Projects = ({ page }: ProjectsProps) => {
   }
 
   if (page === "projets") {
-    const reversed = [...data].reverse();
     return (
       <section id="projects">
         <div className="container-1540">
@@ -55,7 +54,7 @@ const Projects = ({ page }: ProjectsProps) => {
             compétences en développement web et design d'interface.
           </p>
           <div className="liste-projets">
-            {reversed.map((project) => (
+            {[...data].reverse().map((project) => (
               <ProjectCard
                 key={project.id}
                 id={project.id.toString()}

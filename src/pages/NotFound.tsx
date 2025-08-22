@@ -1,12 +1,13 @@
 import Footer from "../components/Footer";
 import Header from "../components/Header";
+import '../styles/pages/NotFound.scss'
 
 const NotFound = () => {
   return (
     <>
     <Header />
 
-    <main>
+    <main id="error-404">
       <h1>Erreur 404 page non trouvé</h1>
     </main>
 

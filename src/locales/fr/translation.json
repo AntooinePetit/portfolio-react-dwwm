@@ -1,0 +1,93 @@
+{
+  "global": {
+    "jobDescription": "Développeur Web Front-End & Designer UI/UX",
+    "rights": "Tous droits réservés"
+  },
+  "navbar": {
+    "home": "Accueil",
+    "about": "À propos",
+    "projects": "Projets",
+    "contact": "Contact"
+  },
+  "hero": {
+    "description": "Je crée des expériences web élégantes, intuitives et performantes avec une attention particulière aux détails",
+    "profilePictureAlt": "Photo d'Antoine Petit",
+    "seeProjectsBtn": "Voir mes projets"
+  },
+  "about": {
+    "title": "À propos de moi",
+    "career": {
+      "title": "Mon parcours",
+      "paragraphs": {
+        "first": "Étudiant en développement web et web mobile, je construis progressivement mon expertise en combinant rigueur technique et curiosité active. Après deux premières périodes de formation en 2016 et 2019, j’ai repris le chemin du code avec une réelle volonté de professionnalisation.",
+        "second": "Je me forme en profondeur aux langages fondamentaux du web : HTML, CSS et JavaScript. Actuellement, je m’intéresse aux animations web, que j’explore comme un moyen d’apporter du dynamisme aux interfaces tout en préservant la performance.",
+        "third": "Orienté code avant tout, je cherche à développer des interfaces propres, maintenables et accessibles, avec un vrai souci de structure et de clarté. Mon objectif actuel est simple : obtenir mon diplôme tout en consolidant mes bases et en expérimentant dès que possible sur des projets personnels."
+      },
+      "learnMoreBtn": "En savoir plus sur mon parcours"
+    },
+    "skillsTitle": "Mes compétences"
+  },
+  "projects": {
+    "title": {
+      "home": "Mes projets récents",
+      "all": "Mes projets"
+    },
+    "description": {
+      "home": "Découvrez une sélection de mes travaux récents qui démontrent mes compétences en développement web et design d'interface.",
+      "all": "Découvrez tous mes travaux démontrant mes compétences en développement web et design d'interface."
+    },
+    "list": {
+      "vividly": {
+        "title": "Vividly",
+        "description": "Développement d'un site de recherche d'artisan de qualité, avec expérience personnalisée selon la localisation",
+        "alt": "Projet Vividly"
+      },
+      "homeKey": {
+        "title": "Home Key",
+        "description": "Développement d'une plateforme de location de logements avec fonctionnalité de recherche selon plusieurs critères sélectionnables.",
+        "alt": "Projet Home Key"
+      },
+      "ako": {
+        "title": "Ako",
+        "description": "Développement d'un site e-commerce de ventes de vêtements et accessoires adaptés à tous.",
+        "alt": "Projet Ako"
+      },
+      "boumBoum": {
+        "title": "Boum Boum",
+        "description": "Conception et développement d'un site vitrine pour une agence d'événementiel.",
+        "alt": "Projet Boum Boum"
+      },
+      "delights": {
+        "title": "Delights",
+        "description": "Développement d'un site vitrine d'une boutique de pâtisserie, avec présentation des produits et prix.",
+        "alt": "Projet Delights"
+      },
+      "digitalMarketingAgency": {
+        "title": "Digital Marketing Agency",
+        "description": "Conception d'un site vitrine d'une entreprise de développement web, avec informations de contact et présentation des partenaires.",
+        "alt": "Projet Digital Marketing Agency"
+      },
+      "nomadeJewelry": {
+        "title": "Nomade Jewelry",
+        "description": "Développement d'un site e-commerce d'une bijouterie, avec présentations des produits.",
+        "alt": "Projet Nomade Jewelry"
+      }
+    },
+    "buttons": {
+      "seeProject": "Voir le projet",
+      "seeAll": "Voir tous les projets"
+    }
+  },
+  "contact": {
+    "title": "Contactez-moi",
+    "description": "Vous avez un projet en tête ou une question ? N'hésitez pas à me contacter, je vous répondrai dans les plus brefs délais.",
+    "nameLabel": "Nom",
+    "emailLabel": "Email",
+    "messageLabel": "Message",
+    "checkbox": "J'accepte que mes données soient traitées conformément à la politique de confidentialité. Elles ne seront utilisées que pour répondre à ma demande.",
+    "sendForm": "Envoyer le message"
+  },
+  "error": {
+    "404": "Erreur 404 - page non trouvée"
+  }
+}

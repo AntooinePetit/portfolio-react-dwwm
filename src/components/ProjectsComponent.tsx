@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 import data from "../data/projects.json";
 import "../styles/components/ProjectsComponent.scss";
@@ -8,6 +9,8 @@ interface ProjectsProps {
 }
 
 const Projects = ({ page }: ProjectsProps) => {
+  const { t } = useTranslation();
+
   const projects = [];
   if (page === "home") {
     for (let i = data.length - 1; i > data.length - 3; i--) {
@@ -16,20 +19,17 @@ const Projects = ({ page }: ProjectsProps) => {
     return (
       <section id="projects">
         <div className="container-1540">
-          <h2>Mes projets récents</h2>
-          <p>
-            Découvrez une sélection de mes travaux récents qui démontrent mes
-            compétences en développement web et design d'interface.
-          </p>
+          <h2>{t("projects.title.home")}</h2>
+          <p>{t("projects.description.home")}</p>
           <div className="liste-projets">
             {projects.map((project) => (
               <ProjectCard
                 key={project.id}
                 id={project.id.toString()}
-                title={project.title}
-                description={project.description}
+                title={t(`${project.i18nKey}.title`)}
+                description={t(`${project.i18nKey}.description`)}
                 tags={project.tags}
-                alt={project.alt}
+                alt={t(`${project.i18nKey}.alt`)}
                 image={project.image}
                 link={project.link}
                 page={page}
@@ -37,7 +37,7 @@ const Projects = ({ page }: ProjectsProps) => {
             ))}
           </div>
           <Link to="/projets" className="button">
-            Voir tous les projets
+            {t("projects.buttons.seeAll")}
           </Link>
         </div>
       </section>
@@ -48,20 +48,17 @@ const Projects = ({ page }: ProjectsProps) => {
     return (
       <section id="projects">
         <div className="container-1540">
-          <h1>Mes projets</h1>
-          <p>
-            Découvrez une sélection de mes travaux récents qui démontrent mes
-            compétences en développement web et design d'interface.
-          </p>
+          <h1>{t("projects.title.all")}</h1>
+          <p>{t("projects.description.all")}</p>
           <div className="liste-projets">
             {[...data].reverse().map((project) => (
               <ProjectCard
                 key={project.id}
                 id={project.id.toString()}
-                title={project.title}
-                description={project.description}
+                title={t(`${project.i18nKey}.title`)}
+                description={t(`${project.i18nKey}.description`)}
                 tags={project.tags}
-                alt={project.alt}
+                alt={t(`${project.i18nKey}.alt`)}
                 image={project.image}
                 link={project.link}
                 page={page}

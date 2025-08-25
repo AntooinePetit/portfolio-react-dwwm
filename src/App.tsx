@@ -1,9 +1,9 @@
 import { Route, Routes } from "react-router-dom";
+import About from "./pages/About.tsx";
+import Contact from "./pages/Contact.tsx";
 import Home from "./pages/Home.tsx";
 import NotFound from "./pages/NotFound.tsx";
-import About from "./pages/About.tsx";
 import Projects from "./pages/Projects.tsx";
-import Contact from "./pages/Contact.tsx";
 
 function App() {
   return (

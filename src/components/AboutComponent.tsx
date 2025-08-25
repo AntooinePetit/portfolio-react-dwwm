@@ -5,6 +5,7 @@ import {
   SiReact,
 } from "@icons-pack/react-simple-icons";
 import { ArrowRight, Circle } from "lucide-react";
+import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 import "../styles/components/AboutComponent.scss";
 
@@ -13,46 +14,35 @@ interface AboutComponentProps {
 }
 
 const AboutComponent = ({ page }: AboutComponentProps) => {
+  const { t } = useTranslation();
+
   return (
     <section id="about" className="container-1540">
-      {page === "home" ? <h2>À propos de moi</h2> : <h1>À propos de moi</h1>}
+      {page === "home" ? (
+        <h2>{t("about.title")}</h2>
+      ) : (
+        <h1>{t("about.title")}</h1>
+      )}
       <div>
         <article>
           {page === "home" ? (
-            <h3>Mon parcous</h3>
+            <h3>{t("about.career.title")}</h3>
           ) : (
-            <h2>Mon parcous</h2>
+            <h2>{t("about.career.title")}</h2>
           )}
-          <p>
-            Étudiant en développement web et web mobile, je construis
-            progressivement mon expertise en combinant rigueur technique et
-            curiosité active. Après deux premières périodes de formation en 2016
-            et 2019, j’ai repris le chemin du code avec une réelle volonté de
-            professionnalisation.
-          </p>
-          <p>
-            Je me forme en profondeur aux langages fondamentaux du web : HTML,
-            CSS et JavaScript. Actuellement, je m’intéresse aux animations web,
-            que j’explore comme un moyen d’apporter du dynamisme aux interfaces
-            tout en préservant la performance.
-          </p>
-          <p>
-            Orienté code avant tout, je cherche à développer des interfaces
-            propres, maintenables et accessibles, avec un vrai souci de
-            structure et de clarté. Mon objectif actuel est simple : obtenir mon
-            diplôme tout en consolidant mes bases et en expérimentant dès que
-            possible sur des projets personnels.
-          </p>
+          <p>{t("about.career.paragraphs.first")}</p>
+          <p>{t("about.career.paragraphs.second")}</p>
+          <p>{t("about.career.paragraphs.third")}</p>
           <Link to="/about" className="link">
-            En savoir plus sur mon parcours
+            {t("about.career.learnMoreBtn")}
             <ArrowRight />
           </Link>
         </article>
         <article>
           {page === "home" ? (
-            <h3>Mes compétences</h3>
+            <h3>{t("about.skillsTitle")}</h3>
           ) : (
-            <h2>Mes compétences</h2>
+            <h2>{t("about.skillsTitle")}</h2>
           )}
           <div>
             <div>

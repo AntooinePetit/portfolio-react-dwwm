@@ -14,8 +14,8 @@ header {
       color: $primary-color;
     }
 
-    nav { 
-      ul{
+    nav {
+      ul {
         display: flex;
         padding: 0;
         list-style: none;
@@ -23,14 +23,13 @@ header {
         a {
           padding: 35px 15px;
           font-weight: 500;
-  
+
           &:hover {
             background: $secondary-color;
             color: $white;
           }
         }
       }
-
     }
 
     .active {
@@ -42,10 +41,10 @@ header {
       background: $light-grey;
       border-bottom: 1px solid $secondary-color;
 
-      ul{
+      ul {
         flex-direction: column;
 
-        a{
+        a {
           padding: 15px;
         }
       }

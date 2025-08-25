@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import "../styles/components/ContactComponent.scss";
 
 interface ContactComponentProps {
@@ -5,35 +6,34 @@ interface ContactComponentProps {
 }
 
 const ContactComponent = ({ page }: ContactComponentProps) => {
+  const { t } = useTranslation();
+
   return (
     <section id="contact" className="container-670">
-      {page === "home" ? <h2>Contactez-moi</h2> : <h1>Mes compétences</h1>}
-      <p>
-        Vous avez un projet en tête ou une question ? N'hésitez pas à me
-        contacter, je vous répondrai dans les plus brefs délais.
-      </p>
+      {page === "home" ? (
+        <h2>{t("contact.title")}</h2>
+      ) : (
+        <h1>{t("contact.title")}</h1>
+      )}
+      <p>{t("contact.description")}</p>
       <form action="#">
         <span>
-          <label htmlFor="name">Nom</label>
+          <label htmlFor="name">{t("contact.nameLabel")}</label>
           <input type="text" name="name" id="name" />
         </span>
         <span>
-          <label htmlFor="email">Email</label>
+          <label htmlFor="email">{t("contact.emailLabel")}</label>
           <input type="email" name="email" id="email" />
         </span>
         <span>
-          <label htmlFor="message">Message</label>
-          <textarea name="message" id="message"></textarea>
+          <label htmlFor="message">{t("contact.messageLabel")}</label>
+          <textarea name="message" id="message" />
         </span>
         <span>
           <input type="checkbox" name="check" id="check" />
-          <label htmlFor="check">
-            J'accepte que mes données soient traitées conformément à la
-            politique de confidentialité. Elles ne seront utilisées que pour
-            répondre à ma demande.
-          </label>
+          <label htmlFor="check">{t("contact.checkbox")}</label>
         </span>
-        <input type="submit" value="Envoyer le message" className="button" />
+        <input type="submit" value={t("contact.sendForm")} className="button" />
       </form>
     </section>
   );

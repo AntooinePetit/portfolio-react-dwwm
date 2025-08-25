@@ -1,65 +1,51 @@
 [
   {
     "id": 1,
-    "title": "Vividly",
-    "description": "Développement d'un site de recherche d'artisan de qualité, avec expérience personnalisé selon la localisation",
     "tags": ["HTML5", "CSS3", "Responsive design", "Mobile first"],
     "image": "/images/vividly.png",
-    "alt": "Projet Vividly",
-    "link": "https://github.com/AntooinePetit/Vividly"
+    "link": "https://github.com/AntooinePetit/Vividly",
+    "i18nKey": "projects.list.vividly"
   },
   {
     "id": 2,
-    "title": "Home Key",
-    "description": "Développement d'une plateforme de location de logements avec fonctionnalité de recherche selon plusieurs critères sélectionnables.",
     "tags": ["HTML5", "CSS3", "Responsive design"],
     "image": "/images/home-key.png",
-    "alt": "Projet Home Key",
-    "link": "https://github.com/AntooinePetit/Home-Key"
+    "link": "https://github.com/AntooinePetit/Home-Key",
+    "i18nKey": "projects.list.homeKey"
   },
   {
     "id": 3,
-    "title": "Ako",
-    "description": "Développement d'un site e-commerce de ventes de vêtements et accessoires adaptés à tous.",
     "tags": ["HTML5", "CSS3", "Responsive design"],
     "image": "/images/ako.webp",
-    "alt": "Projet Ako",
-    "link": "https://github.com/AntooinePetit/9-projets"
+    "link": "https://github.com/AntooinePetit/9-projets",
+    "i18nKey": "projects.list.ako"
   },
   {
     "id": 4,
-    "title": "Boum Boum",
-    "description": "Conception et développement d'un site vitrine pour une agence d'évènementiel.",
     "tags": ["HTML5", "CSS3", "Responsive design"],
     "image": "/images/boum-boum.webp",
-    "alt": "Projet Boum Boum",
-    "link": "https://github.com/AntooinePetit/9-projets"
+    "link": "https://github.com/AntooinePetit/9-projets",
+    "i18nKey": "projects.list.boumBoum"
   },
   {
     "id": 5,
-    "title": "Delights",
-    "description": "Développement d'un site vitrine d'une boutique de patisserie, avec présentation des produits et prix.",
     "tags": ["HTML5", "CSS3", "Responsive design"],
     "image": "/images/delights.webp",
-    "alt": "Projet Delights",
-    "link": "https://github.com/AntooinePetit/9-projets"
+    "link": "https://github.com/AntooinePetit/9-projets",
+    "i18nKey": "projects.list.delights"
   },
   {
     "id": 6,
-    "title": "Digital Marketing Agency",
-    "description": "Conception d'un site vitrine d'une entreprise de développement web, avec informations de contact et présentation des partenaires",
     "tags": ["HTML5", "CSS3", "Responsive design"],
     "image": "/images/digital-marketing-agency.webp",
-    "alt": "Projet Digital Marketing Agency",
-    "link": "https://github.com/AntooinePetit/9-projets"
+    "link": "https://github.com/AntooinePetit/9-projets",
+    "i18nKey": "projects.list.digitalMarketingAgency"
   },
   {
     "id": 7,
-    "title": "Nomade Jewelry",
-    "description": "Développement d'un site e-commerce d'une bijouterie, avec présentations des produits.",
     "tags": ["HTML5", "CSS3", "Responsive design"],
     "image": "/images/nomade-jewelry.webp",
-    "alt": "Projet Nomade Jewelry",
-    "link": "https://github.com/AntooinePetit/9-projets"
+    "link": "https://github.com/AntooinePetit/9-projets",
+    "i18nKey": "projects.list.nomadeJewelry"
   }
 ]

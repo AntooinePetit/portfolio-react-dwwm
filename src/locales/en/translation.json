@@ -1,0 +1,93 @@
+{
+  "global": {
+    "jobDescription": "Front-End Web Developer & UI/UX Designer",
+    "rights": "All rights reserved"
+  },
+  "navbar": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "description": "I create elegant, intuitive, and high-performance web experiences with great attention to detail",
+    "profilePictureAlt": "Photo of Antoine Petit",
+    "seeProjectsBtn": "See my projects"
+  },
+  "about": {
+    "title": "About me",
+    "career": {
+      "title": "My journey",
+      "paragraphs": {
+        "first": "As a web and mobile web development student, I am progressively building my expertise by combining technical rigor and active curiosity. After two initial training periods in 2016 and 2019, I returned to coding with a strong will to professionalize.",
+        "second": "I am deeply learning the fundamental languages of the web: HTML, CSS, and JavaScript. Currently, I am interested in web animations, which I explore as a way to bring dynamism to interfaces while preserving performance.",
+        "third": "Code-oriented above all, I aim to develop clean, maintainable, and accessible interfaces with a strong sense of structure and clarity. My current goal is simple: obtain my diploma while consolidating my foundations and experimenting whenever possible on personal projects."
+      },
+      "learnMoreBtn": "Learn more about my journey"
+    },
+    "skillsTitle": "My skills"
+  },
+  "projects": {
+    "title": {
+      "home": "My recent projects",
+      "all": "My projects"
+    },
+    "description": {
+      "home": "Discover a selection of my recent works that showcase my skills in web development and interface design.",
+      "all": "Browse all my works demonstrating my skills in web development and interface design."
+    },
+    "list": {
+      "vividly": {
+        "title": "Vividly",
+        "description": "Development of a platform to find quality craftsmen, with a personalized experience based on location.",
+        "alt": "Vividly project"
+      },
+      "homeKey": {
+        "title": "Home Key",
+        "description": "Development of a housing rental platform with search functionality based on multiple selectable criteria.",
+        "alt": "Home Key project"
+      },
+      "ako": {
+        "title": "Ako",
+        "description": "Development of an e-commerce website for clothing and accessories adapted for everyone.",
+        "alt": "Ako project"
+      },
+      "boumBoum": {
+        "title": "Boum Boum",
+        "description": "Design and development of a showcase website for an event agency.",
+        "alt": "Boum Boum project"
+      },
+      "delights": {
+        "title": "Delights",
+        "description": "Development of a showcase website for a pastry shop, with presentation of products and prices.",
+        "alt": "Delights project"
+      },
+      "digitalMarketingAgency": {
+        "title": "Digital Marketing Agency",
+        "description": "Design of a showcase website for a web development company, including contact information and partner presentation.",
+        "alt": "Digital Marketing Agency project"
+      },
+      "nomadeJewelry": {
+        "title": "Nomade Jewelry",
+        "description": "Development of an e-commerce website for a jewelry store, with product presentations.",
+        "alt": "Nomade Jewelry project"
+      }
+    },
+    "buttons": {
+      "seeProject": "View project",
+      "seeAll": "View all projects"
+    }
+  },
+  "contact": {
+    "title": "Contact me",
+    "description": "Do you have a project in mind or a question? Feel free to contact me, I’ll get back to you as soon as possible.",
+    "nameLabel": "Name",
+    "emailLabel": "Email",
+    "messageLabel": "Message",
+    "checkbox": "I agree that my data will be processed in accordance with the privacy policy. It will only be used to respond to my request.",
+    "sendForm": "Send message"
+  },
+  "error": {
+    "404": "Error 404 - page not found"
+  }
+}
